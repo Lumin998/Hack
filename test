@@ -17,7 +17,7 @@ OrionLib:MakeNotification({
 Tab:AddButton({
 	Name = "블레이드 볼",
 	Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/RUqduzrk'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
       		print("button pressed")
   	end    
 })
@@ -80,7 +80,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-minimal-imp
 end
 })
 local Tab = Window:MakeTab({
-	Name = "credit",
+	Name = "Bye Bye",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
