@@ -17,11 +17,10 @@ OrionLib:MakeNotification({
 Tab:AddButton({
 	Name = "블레이드 볼",
 	Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua'))()
+loadstring(game:HttpGet('https://pastebin.com/RUqduzrk'))()
       		print("button pressed")
   	end    
 })
-
 local Section = Tab:AddSection({
 	Name = "프리즌 라이프"
 })
