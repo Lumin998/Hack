@@ -24,7 +24,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Sour
 
 local Section = Tab:AddSection({
 	Name = "프리즌 라이프"
-
+})
 Tab:AddButton({
        Name = "프리즌 라이프",
        Callback = function()
