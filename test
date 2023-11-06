@@ -15,9 +15,9 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 Tab:AddButton({
-	Name = "장벽전쟁(KEY=디스코드로 오시오)",
+	Name = "장벽전쟁",
 	Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
       		print("button pressed")
   	end    
 })
