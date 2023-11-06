@@ -80,7 +80,7 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-minimal-imp
 end
 })
 local Tab = Window:MakeTab({
-	Name = "Bye Bye",
+	Name = "준비중",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
