@@ -41,43 +41,15 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
       		print("button pressed")
   	end    
 })
-Tab:AddButton({
-  Name = "circle",
-  Callback = function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Red-Circle-AutoBlock-REALLY-OP-8242"))()
-           print("button pressed")
-   end
-})
-Tab:AddButton({
-  Name = "freeze ball",
-  Callback = function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-infinity-Freeze-8480"))()
-           print("button pressed")
-end
-})
-Tab:AddButton({
-  Name = "free abilities",
-  Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/hV0p40Fv'))()
-           print("button pressed")
-end
-})
 local Section = Tab:AddSection({
-	Name = "other"
+	Name = "다른 것"
 })
 Tab:AddButton({
-	Name = "INFJump",
+	Name = "무한 점프",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/b6EaD89h'))()
       		print("button pressed")
   	end    
-})
-Tab:AddButton({
-  Name = "ffpboost",
-  Callback = function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-minimal-impact-fps-booster-6169"))().  
-          print("button pressed")
-end
 })
 local Tab = Window:MakeTab({
 	Name = "준비중",
@@ -85,6 +57,6 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "credit"
+	Name = "준비중"
 })
 OrionLib:Init()
