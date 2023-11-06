@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "."
+	Name = "장벽전쟁"
 })
 OrionLib:MakeNotification({
 	Name = "NET SHOP",
@@ -15,7 +15,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 Tab:AddButton({
-	Name = ".",
+	Name = "장벽전쟁(KEY=디스코드로 오시오)",
 	Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
       		print("button pressed")
