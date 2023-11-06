@@ -1,0 +1,101 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "CludeHub By Paul", HidePremium = false, SaveConfig = true, ConfigFolder = "Orion"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Combat"
+})
+OrionLib:MakeNotification({
+	Name = "Orion",
+	Content = "SUBSCRIBE TO CLUDE",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+Tab:AddButton({
+	Name = "Parry",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/yBawVcE7'))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+       Name = "manual spam",
+       Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/KB4xQe4j'))()
+                print("button pressed")
+        end
+})
+Tab:AddButton({
+      Name = "ESP",
+     Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck'))()
+               print("button pressed")
+       end
+})
+Tab:AddButton({
+      Name = "Follow ball",
+     Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Blade%20Ball"))()
+               print("button pressed")
+       end
+})
+local Section = Tab:AddSection({
+	Name = "misc"
+})
+Tab:AddButton({
+	Name = "Infinite yield",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+  Name = "circle",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Red-Circle-AutoBlock-REALLY-OP-8242"))()
+           print("button pressed")
+   end
+})
+Tab:AddButton({
+  Name = "freeze ball",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-infinity-Freeze-8480"))()
+           print("button pressed")
+end
+})
+Tab:AddButton({
+  Name = "free abilities",
+  Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hV0p40Fv'))()
+           print("button pressed")
+end
+})
+local Section = Tab:AddSection({
+	Name = "other"
+})
+Tab:AddButton({
+	Name = "INFJump",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/b6EaD89h'))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+  Name = "ffpboost",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-minimal-impact-fps-booster-6169"))().  
+          print("button pressed")
+end
+})
+local Tab = Window:MakeTab({
+	Name = "credit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "credit"
+})
+OrionLib:Init()
