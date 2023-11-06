@@ -6,25 +6,29 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Combat"
+	Name = "블레이드 볼"
 })
 OrionLib:MakeNotification({
-	Name = "Orion",
-	Content = "SUBSCRIBE TO CLUDE",
+	Name = "NET SHOP",
+	Content = "구매 해주셔서 감사합니다!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 Tab:AddButton({
-	Name = "Parry",
+	Name = "블레이드 볼",
 	Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/yBawVcE7'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua'))()
       		print("button pressed")
   	end    
 })
+
+local Section = Tab:AddSection({
+	Name = "프리즌 라이프"
+
 Tab:AddButton({
-       Name = "manual spam",
+       Name = "프리즌 라이프",
        Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/KB4xQe4j'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
                 print("button pressed")
         end
 })
