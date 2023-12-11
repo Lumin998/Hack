@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "LM SHOP", HidePremium = false, SaveC
 local Tab = Window:MakeTab({
 	Name = "핵",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = true
+	PremiumOnly = false
 })
 local Section = Tab:AddSection({
 	Name = "장벽전쟁"
