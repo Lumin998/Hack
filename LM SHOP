@@ -3,13 +3,13 @@ local Window = OrionLib:MakeWindow({Name = "LM SHOP", HidePremium = false, SaveC
 local Tab = Window:MakeTab({
 	Name = "핵",
 	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+	PremiumOnly = true
 })
 local Section = Tab:AddSection({
 	Name = "장벽전쟁"
 })
 OrionLib:MakeNotification({
-	Name = "NET SHOP",
+	Name = "LM SHOP",
 	Content = "구매 해주셔서 감사합니다!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
