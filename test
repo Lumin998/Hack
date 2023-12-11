@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NET SHOP", HidePremium = false, SaveConfig = true, ConfigFolder = "Orion"})
+local Window = OrionLib:MakeWindow({Name = "LM SHOP", HidePremium = false, SaveConfig = true, ConfigFolder = "Orion"})
 local Tab = Window:MakeTab({
 	Name = "핵",
 	Icon = "rbxassetid://4483345998",
@@ -32,10 +32,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/mast
         end
 })
 local Section = Tab:AddSection({
-	Name = "misc"
+	Name = "명령어 실향"
 })
 Tab:AddButton({
-	Name = "Infinite yield",
+	Name = "명령어 실행",
 	Callback = function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
       		print("button pressed")
